@@ -17,20 +17,28 @@ const Yelp = {
       .then((jsonResponse) => {
         if (jsonResponse.businesses) {
           return jsonResponse.businesses.map((business) => {
-            console.log(business);
             return {
               id: business.id,
               imageSrc: business.image_url,
               name: business.name,
-              address: business.address,
-              city: business.city,
-              state: business.state,
-              zipCode: business.zipCode,
+              address: business.location.address1,
+              city: business.location.city,
+              state: business.location.state,
+              zipCode: business.location.zip_code,
               category: business.categories[0].title,
               rating: business.rating,
               reviewCount: business.review_count,
             };
           });
+        } else {
+          return [
+            {
+              imageSrc: "https://content.codecademy.com/programs/react/ravenous/pizza.jpg",
+              name: "Your search do not have in the website.",
+              rating: "0",
+              reviewCount: "0",
+            },
+          ];
         }
       });
   },
