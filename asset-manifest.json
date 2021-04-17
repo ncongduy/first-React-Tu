@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/first-React-Tu/static/css/main.9ae41186.chunk.css",
-    "main.js": "/first-React-Tu/static/js/main.02d12de4.chunk.js",
-    "main.js.map": "/first-React-Tu/static/js/main.02d12de4.chunk.js.map",
+    "main.js": "/first-React-Tu/static/js/main.47976c95.chunk.js",
+    "main.js.map": "/first-React-Tu/static/js/main.47976c95.chunk.js.map",
     "runtime-main.js": "/first-React-Tu/static/js/runtime-main.ffe40c54.js",
     "runtime-main.js.map": "/first-React-Tu/static/js/runtime-main.ffe40c54.js.map",
     "static/js/2.6814a12d.chunk.js": "/first-React-Tu/static/js/2.6814a12d.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.ffe40c54.js",
     "static/js/2.6814a12d.chunk.js",
     "static/css/main.9ae41186.chunk.css",
-    "static/js/main.02d12de4.chunk.js"
+    "static/js/main.47976c95.chunk.js"
   ]
 }
